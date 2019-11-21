@@ -1,5 +1,5 @@
 function sum(a, b){
-    return a + b + 46;
+    return a + b;
 }
 
 // function diff(c, d){
