@@ -36,10 +36,12 @@ jobs:
       - checkout
       - run: npm install
       - run: npm test
-      
+
 workflows:
   version: 2
   my_workflow:
     jobs:
       - build
-      - test
+      - test:
+          requires:
+            - build
