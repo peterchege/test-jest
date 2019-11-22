@@ -1,4 +1,4 @@
-const sum = require('./sketch');
+const {sum, prod } = require('./sketch');
 // const diff = require('./sketch');
 
 // test('adds 1 + 2 to equal 3', () => {
@@ -11,8 +11,10 @@ function sumTest() {
     expect(sum(1,2)).toBe(3);
 } 
 
-// test('diff 4 - 2 to equal 2', diffTest);
+test('prod function exists',()=>{
+    expect(prod).toBeDefined();
+});
 
-// function diffTest(){
-//     expect(diff(4,2)).toBe(2);
-// }
+test('prod calculate 2 * 10 = 20',()=>{
+    expect(prod(2,10)).toBe(20);
+});
