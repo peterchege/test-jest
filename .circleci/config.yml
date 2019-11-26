@@ -41,11 +41,11 @@ orbs:
       - run: npm test
 
 workflows:
-  version: 2.1
+  version: 2
   my_workflow:
     jobs:
-      - build:
-          context: SonarCloud
       - test:
+          context: SonarCloud
+      - build:
           requires:
-            - build
+            - test
