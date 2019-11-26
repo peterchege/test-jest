@@ -48,4 +48,4 @@ workflows:
           context: SonarCloud
       - test:
           requires:
-            - build:
+            - build
