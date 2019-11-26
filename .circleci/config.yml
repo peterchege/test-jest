@@ -44,8 +44,8 @@ workflows:
   version: 2
   my_workflow:
     jobs:
-      - build:
-          context: SonarCloud
+      - build
+          # context: SonarCloud
       - test:
           requires:
             - build
