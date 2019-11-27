@@ -11,9 +11,9 @@ function sumTest() {
     expect(sum(1,2)).toBe(3);
 } 
 
-test('prod function exists',()=>{
-    expect(prod).toBeDefined();
-});
+// test('prod function exists',()=>{
+//     expect(prod).toBeDefined();
+// });
 
 test('prod calculate 2 * 10 = 20',()=>{
     expect(prod(2,10)).toBe(20);
