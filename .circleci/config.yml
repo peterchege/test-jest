@@ -41,7 +41,7 @@ orbs:
       - run: npm test
 
 workflows:
-  version: 2
+  version: 2.1
   my_workflow:
     jobs:
       - test:
