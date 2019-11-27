@@ -6,10 +6,6 @@ function prod(c,d){
     return c * d;
 }
 
-// function diff(c, d){
-//     return c - d;
-//  }
-
 module.exports = {
     sum: sum,
     prod: prod,
