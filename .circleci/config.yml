@@ -9,7 +9,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:7.10
+      - image: circleci/node:12.14.1
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -25,7 +25,7 @@ jobs:
   test:
     docker:
       # specify the version you desire here
-      - image: circleci/node:7.10
+      - image: circleci/node:12.14.1
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
