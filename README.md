@@ -1,5 +1,5 @@
 # TDD
-Test driven development using jest for node js and sonar cloud for code smells 
+Test driven development using jest for node js and sonar cloud for code smells and test coverage
 # [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/dashboard?id=peterchege_test-jest) [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=peterchege_test-jest)](https://sonarcloud.io/dashboard?id=peterchege_test-jest)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=peterchege_test-jest&metric=bugs)](https://sonarcloud.io/dashboard?id=peterchege_test-jest)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=peterchege_test-jest&metric=code_smells)](https://sonarcloud.io/dashboard?id=peterchege_test-jest)
